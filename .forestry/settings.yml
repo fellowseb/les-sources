@@ -34,9 +34,13 @@ sections:
   label: Home
   templates:
   - home
-- type: document
-  path: blog.md
+- type: jekyll-pages
   label: Blog
+  create: all
+  match: "**/*"
+  templates:
+  - section
+  - postlist
 - type: directory
   path: ''
   label: Page
