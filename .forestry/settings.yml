@@ -41,7 +41,6 @@ sections:
   match: "**/*.md"
   exclude: "{_posts/**,README.md,LICENSE.md,index.md}"
   templates:
-  - postlist
   - page
 - type: jekyll-posts
   label: Post
