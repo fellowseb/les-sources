@@ -34,12 +34,6 @@ sections:
   label: Home
   templates:
   - home
-- type: jekyll-pages
-  label: Blog
-  create: all
-  templates:
-  - section
-  - postlist
 - type: directory
   path: ''
   label: Page
