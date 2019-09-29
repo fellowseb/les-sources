@@ -5,6 +5,10 @@ admin_path: admin
 webhook_url: https://api.stackbit.com/project/5d90cc9cafd28b0013039034/webhook/forestry
 sections:
 - type: document
+  path: blog.md
+  label: Blog
+  match: "**/*"
+- type: document
   path: _config.yml
   label: Global Site Config
   templates:
