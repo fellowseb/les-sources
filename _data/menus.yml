@@ -1,5 +1,2 @@
 ---
-main:
-- url: https://fellowseb.me
-  weight: 1
-  title: Test
+main: []
