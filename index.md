@@ -7,7 +7,7 @@ sections:
   section_id: hero
   component: hero_block.html
   subtitle: "### This is a super-cool hero subhead."
-  image: images/avatar.png
+  image: "/images/rache3-1.jpg"
 - type: contentblock
   template: contentblock
   title: Text
