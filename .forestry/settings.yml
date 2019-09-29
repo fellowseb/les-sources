@@ -37,7 +37,6 @@ sections:
 - type: jekyll-pages
   label: Blog
   create: all
-  match: "**/*"
   templates:
   - section
   - postlist
@@ -48,6 +47,7 @@ sections:
   match: "**/*.md"
   exclude: "{_posts/**,README.md,LICENSE.md,index.md}"
   templates:
+  - postlist
   - page
 - type: jekyll-posts
   label: Post
