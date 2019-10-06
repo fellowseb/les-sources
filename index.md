@@ -36,6 +36,11 @@ sections:
     faucibus blandit nullam. Accumsan phasellus nunc integer. Accumsan euismod nunc
     adipiscing lacinia erat ut sit. Arcu amet. "
   image: images/art.svg
+- template: postlist
+  component: postlist.html
+  type: postlist
+  title: ''
+  section_id: ''
 layout: home
 menu:
   main:
