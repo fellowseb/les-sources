@@ -20,6 +20,6 @@ fields:
   config:
     required: true
 pages:
-- ipsum.md
-- generic.md
 - elements.md
+- generic.md
+- ipsum.md
